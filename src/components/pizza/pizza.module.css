@@ -1,0 +1,12 @@
+.numberstart{
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    align-items: center;
+}
+.halalPage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}

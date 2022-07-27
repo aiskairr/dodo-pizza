@@ -1,0 +1,21 @@
+.left{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.left a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+}
+.left a:hover{
+    color: rgb(255, 169, 8);
+    transform: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

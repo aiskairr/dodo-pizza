@@ -1,0 +1,21 @@
+.containerl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+.left{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left img{
+    width: 30%;
+}
+.right {
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+    align-items: center;
+}
