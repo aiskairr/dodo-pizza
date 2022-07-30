@@ -1,5 +1,5 @@
 .left{
-    width: 60%;
+    width: 75%;
     display: flex;
     justify-content: space-between;
 }
@@ -8,7 +8,7 @@
     color: black;
     cursor: pointer;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
 }
 .left a:hover{
     color: rgb(255, 169, 8);
@@ -18,4 +18,5 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }

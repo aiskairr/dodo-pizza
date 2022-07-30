@@ -1,7 +1,8 @@
+import PizzaCard from '../PizzaCard/PizzaCard'
 import css from './pizza.module.css'
 
 
-export default function Pizza() {
+export default function Pizza({pizzas}) {
     return (
         <div className='container'>
             <div className={css.container}>
@@ -16,6 +17,11 @@ export default function Pizza() {
                 </div>
                 <div className={css.numbercenter}>
                     <h1>Пицца</h1>
+                </div>
+                <div className={css.Pizza_Page}>
+                    {
+                        pizzas.map((item)=> <PizzaCard key={item.id} {...item}/>)
+                    }
                 </div>
             </div>
         </div>

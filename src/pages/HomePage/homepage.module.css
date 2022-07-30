@@ -3,3 +3,14 @@
     transform: rotate(0.5turn);
     right: 20px;
 }
+.Drinks{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

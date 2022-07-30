@@ -1,0 +1,34 @@
+.PizzaCard{
+    width: 23%;
+    margin: 30px 10px;
+}
+.image img{
+    width: 100%;
+}
+
+.description #p{
+    margin-top: 10px;
+    margin: 8px 0px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif ;   
+    font-weight: 200;
+}
+.description p{
+    height: 12vh;
+    margin-top: 10px;
+    margin: 0px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Roboto",sans-serif;
+    color: rgb(92, 99, 112);
+    font-weight: 400;
+}
+.price{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

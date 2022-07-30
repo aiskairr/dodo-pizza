@@ -15,4 +15,15 @@
   text-align: center;
   text-decoration: none;
   color: white;
+  cursor: pointer;
+}
+.btn2{
+  border: none;
+  background-color: rgb(255, 228, 204);
+  border-radius: 9999px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 136, 0);
+  cursor: pointer;
 }
